@@ -2,6 +2,7 @@
   <q-page class="flex flex-center row">
     <div class="col-12" style="height: 20vh;"></div>
     <div class="col-8" style="height: 80vh;">
+    <img :src="mySrc">
       <div class ="q-mx-md text-h4 text-yellow"> <div class="q-my-md text-h2 text-bold"><span class="text-red-9">Privacy</span><span class="text-cyan-7">Wallet</span></div>
       在不泄露隐私的情况下交易个人数据.
       </div>
@@ -54,6 +55,11 @@ export default {
       },
     }
   },
+}
+export default {
+  data: () => ({
+      mySrc: "../public/faicon-128x128.png"
+  }),
 }
 </script>
 

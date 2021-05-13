@@ -33,7 +33,7 @@ export default {
   name: 'PageIndex',
   data() {
     return {
-      mySrc: "./index.png",
+      mySrc: "../public/favicon-16x16.png",
       slide: 'style',
       intro: {
         howItWorks: [

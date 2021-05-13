@@ -3,7 +3,7 @@
     <div class="col-12" style="height: 20vh;"></div>
     <div class="col-8" style="height: 80vh;">
       <div class ="q-mx-md text-h4 text-bold"> <div class="q-my-md text-h2 text-bold"><span class="text-purple-9">Privacy</span><span class="text-cyan-7">Wallet</span></div>
-      Trading personal data without leaking privacy.
+      Taaaaaaaaaapersonal data without leaking privacy.
       </div>
       <div class="q-ma-md text-h6">
         PrivacyWallet 是一个区块链上基于差分隐私与凸优化的拍卖系统。

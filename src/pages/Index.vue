@@ -1,12 +1,11 @@
 <template>
   <q-page class="flex flex-center row">
-    <div class="col-12" style="height: 20vh;">
-      <imag src="./index.png" wide="100" height="100"/>
-    </div>
+    <div class="col-12" style="height: 20vh;"></div>
     <div class="col-8" style="height: 80vh;">
       <div class ="q-mx-md text-h4 text-yellow"> <div class="q-my-md text-h2 text-bold"><span class="text-red-9">Privacy</span><span class="text-cyan-7">Wallet</span></div>
       在不泄露隐私的情况下交易个人数据.
       </div>
+      <imag src="./index.png" wide="100" height="100"/>
       <div class="q-ma-md text-h6">
         PrivacyWallet 是一个区块链上基于差分隐私与凸优化的拍卖系统。
         <br />本系统能够在保证公平交易和个人隐私保护的情况下，实现链上数据交易。

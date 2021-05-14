@@ -1,6 +1,5 @@
 <template>
   <q-page class="flex flex-center row">
-    <div class="bg"><img :src="mySrc"></div>
     <div class="col-12" style="height: 20vh;">
     <div class="col-8" style="height: 80vh;">
     

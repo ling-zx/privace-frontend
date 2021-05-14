@@ -34,6 +34,7 @@ export default {
   name: 'PageIndex',
   data() {
     return {
+      mySrc: imag,
       slide: 'style',
       intro: {
         howItWorks: [

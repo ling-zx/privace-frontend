@@ -2,8 +2,9 @@
   <q-page class="flex flex-center row">
     <div class="col-12" style="height: 20vh;">
     <div class="col-8" style="height: 80vh;">
+    
       <div class ="q-mx-md text-h4 text-yellow"> <div class="q-my-md text-h2 text-bold"><span class="text-red-9">Privacy</span><span class="text-cyan-7">Wallet</span></div>
-      <div><img :src="mySrc"></div>
+      <div class="bg"><img :src="mySrc"></div>
       在不泄露隐私的情况下交易个人数据.
       </div>
       <div class="q-ma-md text-h6">
@@ -28,12 +29,12 @@
 </template>
 
 <script>
-import imag from "./index.png";
+import img from "./index.png";
 export default {
   name: 'PageIndex',
   data() {
     return {
-      mySrc: imag,
+      mySrc: img,
       slide: 'style',
       intro: {
         howItWorks: [

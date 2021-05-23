@@ -40,8 +40,8 @@
       :columns="dataHistoryColumns"
       :visible-columns="dataHistoryVisibleColumns"
       row-key="id"
-      dark
-      class="table col-sm-12 col-md-11 col-xl-11 q-ma-md"
+      
+      class="my-sticky-column-table table col-sm-12 col-md-11 col-xl-11 q-ma-md"
     >
       <template v-slot:top="props">
         <div class="col-2 q-table__title">上传数据历史</div>
@@ -168,7 +168,7 @@ export default {
 .my-sticky-column-table
   /* specifying max-width so the example can
     highlight the sticky column on any browser window */
-  max-width: 600px
+  max-width: 1000px
 
   thead tr:first-child th:first-child
     /* bg color is important for th; just specify one */

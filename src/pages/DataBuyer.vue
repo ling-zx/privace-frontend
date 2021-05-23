@@ -6,6 +6,7 @@
       :columns="columns"
       row-key="bidStartID"
       :visible-columns="visibleColumns"
+      inline
       class="col-sm-12 col-md-11 col-xl-10"
     >
       <template v-slot:top="props">

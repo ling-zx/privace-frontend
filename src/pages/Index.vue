@@ -6,18 +6,18 @@
      
     <div class="col-8" style="height: 80vh;">
    
-      <div class ="q-mx-md text-h4 text-yellow"> <div class="q-my-md text-h2 text-bold"><span class="text-red">Privacy</span><span class="text-cyan-7">Wallet</span></div>
+      <div class ="q-mx-md text-h4 text-yellow"> <div class="q-my-md text-h2 text-bold"><span class="text-red">莆田学院</span><span class="text-cyan-7">基于区块链的数据交易平台</span></div>
       <div class="bg"><img :src="mySrc"></div>
       在不泄露隐私的情况下交易个人数据.
       </div>
       <div class="q-ma-md text-h6">
-        PrivacyWallet 是一个区块链上基于差分隐私与凸优化的拍卖系统。
+        该数据安全交易平台是一个区块链上基于差分隐私与凸优化的拍卖系统。
         <br />本系统能够在保证公平交易和个人隐私保护的情况下，实现链上数据交易。
       </div>
     </div>
 
     <div class="col-12 row" style="height: 70vh;">
-      <div class="col-12 flex flex-center text-h4 q-my-lg">PrivacyWallet 是如何运作的</div>
+      <div class="col-12 flex flex-center text-h4 q-my-lg">PTU数据交易平台 是如何运作的</div>
       <div class="col-4 row flex-center" v-for="(i,idx) in intro.howItWorks" :key="'hiw' + idx">
         <q-card class="col-8 my-card">
           <q-card-section>

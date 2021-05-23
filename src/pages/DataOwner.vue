@@ -1,16 +1,13 @@
 <template>
   <q-page class="flex flex-center row">
-    <div class="q-pa-md">
-      <q-table
-        class="my-sticky-header-table"
-        :data="transactionsHistory"
-        :columns="transactionsHistoryColumns"
-        :visible-columns="transactionsHistoryVisibleColumns"
-        row-key="id"
-        flat
-        bordered
-      />
-     </div>
+    <q-table
+      :data="transactionsHistory"
+      :columns="transactionsHistoryColumns"
+      :visible-columns="transactionsHistoryVisibleColumns"
+      row-key="id"
+      dark
+      class="table col-sm-12 col-md-11 col-xl-11 q-ma-md"
+    >
       <template v-slot:top="props">
         <div class="col-2 q-table__title">交易历史</div>
 
@@ -44,8 +41,7 @@
       :columns="dataHistoryColumns"
       :visible-columns="dataHistoryVisibleColumns"
       row-key="id"
-      flat
-      bordered
+      dark
       class="table col-sm-12 col-md-11 col-xl-11 q-ma-md"
     >
       <template v-slot:top="props">

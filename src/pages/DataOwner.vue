@@ -5,6 +5,8 @@
       :columns="transactionsHistoryColumns"
       :visible-columns="transactionsHistoryVisibleColumns"
       row-key="id"
+      flat
+      bordered
       class="table col-sm-12 col-md-11 col-xl-11 q-ma-md"
     >
       <template v-slot:top="props">
@@ -40,6 +42,8 @@
       :columns="dataHistoryColumns"
       :visible-columns="dataHistoryVisibleColumns"
       row-key="id"
+      flat
+      bordered
       class="table col-sm-12 col-md-11 col-xl-11 q-ma-md"
     >
       <template v-slot:top="props">

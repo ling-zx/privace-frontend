@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center row">
-    <div class="q-ma-md">
+    <div class="q-pa-md">
       <q-table
         class="my-sticky-header-table"
         :data="transactionsHistory"
@@ -9,7 +9,7 @@
         row-key="id"
         flat
         bordered
-      >
+      />
      </div>
       <template v-slot:top="props">
         <div class="col-2 q-table__title">交易历史</div>

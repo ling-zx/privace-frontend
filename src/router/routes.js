@@ -3,7 +3,7 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     meta: {
-      breadcrumb: [{ name: 'PrivacyWallet' }],
+      breadcrumb: [{ name: 'PTUBlockchainTradingSystem' }],
     },
     children: [
       {

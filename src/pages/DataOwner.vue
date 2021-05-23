@@ -5,7 +5,7 @@
       :columns="transactionsHistoryColumns"
       :visible-columns="transactionsHistoryVisibleColumns"
       row-key="id"
-      class="my-sticky-column-table q-ma-md"
+      class="my-sticky-column-table table col-sm-12 col-md-11 col-xl-11 q-ma-md"
     >
       <template v-slot:top="props">
         <div class="col-2 q-table__title">交易历史</div>

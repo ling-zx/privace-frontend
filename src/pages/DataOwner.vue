@@ -40,7 +40,7 @@
       :columns="dataHistoryColumns"
       :visible-columns="dataHistoryVisibleColumns"
       row-key="id"
-      class="table col-sm-11 col-md-8 col-xl-6 q-ma-md"
+      class="table col-sm-12 col-md-11 col-xl-11 q-ma-md"
     >
       <template v-slot:top="props">
         <div class="col-2 q-table__title">上传数据历史</div>

@@ -6,7 +6,8 @@
       :columns="columns"
       row-key="bidStartID"
       :visible-columns="visibleColumns"
-      class="my-sticky-column-table col-sm-12 col-md-11 col-xl-10 q-ma-md"
+      dark
+      class="col-sm-12 col-md-11 col-xl-10"
     >
       <template v-slot:top="props">
         <div class="col-2 q-table__title">交易历史</div>
@@ -288,24 +289,7 @@ export default {
   },
 }
 </script>
-<style lang="sass">
-.my-sticky-column-table
-  /* specifying max-width so the example can
-    highlight the sticky column on any browser window */
-  max-width: 600px
-
-  thead tr:first-child th:first-child
-    /* bg color is important for th; just specify one */
-    background-color: #fff
-
-  td:first-child
-    background-color: #f5f5dc
-
-  th:first-child,
-  td:first-child
-    position: sticky
-    left: 0
-    z-index: 1
+<style>
 .max-width {
   /*width: 100%;*/
   /*margin: auto;*/

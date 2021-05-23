@@ -164,7 +164,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="sass">
 .my-sticky-column-table
   /* specifying max-width so the example can
     highlight the sticky column on any browser window */

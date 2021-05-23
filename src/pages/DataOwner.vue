@@ -5,8 +5,7 @@
       :columns="transactionsHistoryColumns"
       :visible-columns="transactionsHistoryVisibleColumns"
       row-key="id"
-      dark
-      class="table col-sm-12 col-md-11 col-xl-11 q-ma-md"
+      class="my-sticky-column-table q-ma-md"
     >
       <template v-slot:top="props">
         <div class="col-2 q-table__title">交易历史</div>
@@ -166,4 +165,21 @@ export default {
 </script>
 
 <style scoped>
+.my-sticky-column-table
+  /* specifying max-width so the example can
+    highlight the sticky column on any browser window */
+  max-width: 600px
+
+  thead tr:first-child th:first-child
+    /* bg color is important for th; just specify one */
+    background-color: #fff
+
+  td:first-child
+    background-color: #f5f5dc
+
+  th:first-child,
+  td:first-child
+    position: sticky
+    left: 0
+    z-index: 1
 </style>

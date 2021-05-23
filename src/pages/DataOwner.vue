@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center row">
-    <div class="table col-sm-12 col-md-11 col-xl-11 q-ma-md">
+    <div class="q-ma-md">
       <q-table
         class="my-sticky-header-table"
         :data="transactionsHistory"

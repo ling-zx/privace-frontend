@@ -5,8 +5,6 @@
       :data="data"
       :columns="columns"
       row-key="bidStartID"
-      flat
-      bordered
       :visible-columns="visibleColumns"
       class="my-sticky-column-table col-sm-12 col-md-11 col-xl-10"
     >

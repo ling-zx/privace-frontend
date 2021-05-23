@@ -6,7 +6,7 @@
       :columns="columns"
       row-key="bidStartID"
       :visible-columns="visibleColumns"
-      class="my-sticky-column-table col-sm-12 col-md-11 col-xl-10"
+      class="my-sticky-column-table col-sm-12 col-md-11 col-xl-10 q-ma-md"
     >
       <template v-slot:top="props">
         <div class="col-2 q-table__title">交易历史</div>
